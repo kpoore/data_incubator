@@ -1,0 +1,10 @@
+import random
+
+M = 20
+dSum = 0
+ctr = 0
+while dSum < M:
+    dSum += random.randint(1,6)
+    ctr += 1
+    
+    
